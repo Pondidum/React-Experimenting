@@ -15,21 +15,21 @@
   </head>
 
   <body>
-    <div id="header" class="row fullwidth"></div>
-    <div id="content" class="row fullwidth"></div>
+    <div id="content"></div>
 
     <script type="text/jsx" src="components/header.jsx"></script>
+    <script type="text/jsx" src="components/itemList.jsx"></script>
     <script type="text/jsx" src="components/templateList.jsx"></script>
+    <script type="text/jsx" src="components/templateItem.jsx"></script>
+    <script type="text/jsx" src="components/historyList.jsx"></script>
+    <script type="text/jsx" src="components/historyItem.jsx"></script>
+
+    <script type="text/jsx" src="components/landingPage.jsx"></script>
 
     <script type="text/jsx">
       /** @jsx React.DOM */
       React.renderComponent(
-        <Header />,
-        document.getElementById('header')
-      );
-
-      React.renderComponent(
-        <TemplateList url="templates.json" interval={5000} />,
+        <LandingPage />,
         document.getElementById('content')
       );
 

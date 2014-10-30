@@ -13,5 +13,10 @@
 		"name": "CWS Reject",
 		"description": "Sent when rejecting a candidate",
 		"brands": ["ald"]
+	},
+	{
+		"name": "CWS Reject No Reply",
+		"description": "Sent when rejecting a candidate silently",
+		"brands": ["ihr"]
 	}
 ]

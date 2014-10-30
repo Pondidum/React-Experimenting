@@ -1,6 +1,6 @@
 /** @jsx React.DOM */
 
-var TemplateList = React.createClass({
+var HistoryList = React.createClass({
 
   loadFromServer: function() {
     $.ajax({
@@ -26,14 +26,14 @@ var TemplateList = React.createClass({
 
   render: function() {
 
-    var templates = this.state.data.map(function(item) {
+    var history = this.state.data.map(function(item) {
       return (
-        <TemplateItem template={item} />
+        <HistoryItem entry={item} />
       );
     });
 
     return (
-      <ItemList items={templates} />
+      <ItemList items={history} />
     );
   }
 });
