@@ -1,0 +1,17 @@
+[
+	{
+		"name": "CWS For Me Update",
+		"description": "Sent when updating an existing candidate",
+		"brands": ["ald", "bcm", "cus", "mtuk"]
+	},
+	{
+		"name": "CWS For Me New",
+		"description": "Sent when creating a new candidate",
+		"brands": ["ald", "bcm", "cus", "mtuk"]
+	},
+	{
+		"name": "CWS Reject",
+		"description": "Sent when rejecting a candidate",
+		"brands": ["ald"]
+	}
+]
