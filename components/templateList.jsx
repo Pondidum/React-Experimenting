@@ -28,7 +28,7 @@ var TemplateList = React.createClass({
 
     var templates = this.state.data.map(function(item) {
       return (
-        <TemplateItem template={item} />
+        <TemplateItem key={item.id} template={item} />
       );
     });
 

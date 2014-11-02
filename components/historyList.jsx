@@ -28,7 +28,7 @@ var HistoryList = React.createClass({
 
     var history = this.state.data.map(function(item) {
       return (
-        <HistoryItem entry={item} />
+        <HistoryItem key={item.id} entry={item} />
       );
     });
 

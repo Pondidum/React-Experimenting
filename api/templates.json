@@ -1,20 +1,24 @@
 [
 	{
+		"id": "1",
 		"name": "CWS For Me Update",
 		"description": "Sent when updating an existing candidate, with a really long description which needs to wrap.",
 		"brands": ["ald", "bcm", "cus", "mtuk"]
 	},
 	{
+		"id": "2",
 		"name": "CWS For Me New",
 		"description": "Sent when creating a new candidate",
 		"brands": ["ald", "bcm", "cus", "mtuk"]
 	},
 	{
+		"id": "3",
 		"name": "CWS Reject",
 		"description": "Sent when rejecting a candidate",
 		"brands": ["ald"]
 	},
 	{
+		"id": "4",
 		"name": "CWS Reject No Reply",
 		"description": "Sent when rejecting a candidate silently",
 		"brands": ["ihr"]
