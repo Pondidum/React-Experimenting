@@ -1,0 +1,34 @@
+.templateItem {
+	border: 1px solid #000;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+
+	padding: 0.2em;
+}
+
+.templateItem h1 {
+	font-size: 1.2em;
+	border-bottom:  1px solid #ccc;
+}
+
+.templateItem .description {
+	color: #999;
+	margin-bottom: 0.5em;
+}
+
+.templateItem .brands a {
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+
+.templateItem .actions {
+	float: right;
+	margin-right: 1em;
+}
+
+.templateItem > ul {
+	list-style-type: none;
+}
+
+.templateItem > p {
+}
