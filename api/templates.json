@@ -1,7 +1,7 @@
 [
 	{
 		"name": "CWS For Me Update",
-		"description": "Sent when updating an existing candidate",
+		"description": "Sent when updating an existing candidate, with a really long description which needs to wrap.",
 		"brands": ["ald", "bcm", "cus", "mtuk"]
 	},
 	{
