@@ -1,3 +1,10 @@
+.header {
+	height: 50px;
+	border-bottom: 1px solid #000;
+	margin: 0!important;
+	padding: 1em;
+}
+
 .templateItem {
 	border: 1px solid #000;
 	margin-top: 0.5em;
