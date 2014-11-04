@@ -20,12 +20,14 @@
   <body>
     <div id="content"></div>
 
+    <script type="text/jsx" src="components/header.jsx"></script>
     <script type="text/jsx" src="components/editor.jsx"></script>
+    <script type="text/jsx" src="components/editPage.jsx"></script>
 
     <script type="text/jsx">
       /** @jsx React.DOM */
       React.renderComponent(
-        <Editor />,
+        <EditPage />,
         document.getElementById('content')
       );
 
